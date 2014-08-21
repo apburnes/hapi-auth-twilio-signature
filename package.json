@@ -1,0 +1,27 @@
+{
+  "name": "hapi-auth-twilio-signature",
+  "version": "0.0.0",
+  "description": "Hapi authentication for incoming Twilio requests ",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp lint && mocha test/"
+  },
+  "keywords": [
+    "Twilio",
+    "Hapi",
+    "authentication"
+  ],
+  "author": "Andy B",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4",
+    "gulp": "^3.8.7",
+    "gulp-jshint": "^1.8.4",
+    "hapi": "^6.5.1"
+  },
+  "dependencies": {
+    "boom": "^2.5.1",
+    "hoek": "^2.4.1"
+  }
+}
