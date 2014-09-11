@@ -1,7 +1,7 @@
 {
   "name": "hapi-auth-twilio-signature",
-  "version": "0.0.0",
-  "description": "Hapi authentication for incoming Twilio requests ",
+  "version": "0.0.1",
+  "description": "Hapi authentication for Twilio webhooks requests ",
   "main": "index.js",
   "scripts": {
     "test": "gulp lint && mocha test/"
@@ -12,8 +12,17 @@
     "authentication",
     "scheme"
   ],
-  "author": "Andy B",
+  "author": {
+    "name": "Andy B",
+    "email": "apburnes@gmail.com",
+    "url": "apburnes.github.io"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/apburnes/hapi-auth-twilio-signature"
+  },
+  "homepage": "https://github.com/apburnes/hapi-auth-twilio-signature",
   "devDependencies": {
     "chai": "^1.9.1",
     "gulp": "^3.8.7",

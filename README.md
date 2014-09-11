@@ -17,7 +17,7 @@ Twilio Signature authentication requires validating the "X-Twilio-Signature" hea
     - `signature` - a header signature sent from twilio via "X-Twilio-Signature"
     - `callback` - a callback function: `function(err, isValid, credentials)` where:
         - `err` - an internal error.
-        - `isValid` - `true` if the token is valid, otherwise `false`.
+        - `isValid` - `true` if the signature is valid, otherwise `false`.
         - `credentials` - a credentials object passed back to the application in `request.auth.credentials`. Typically, `credentials` are only
           included when `isValid` is `true`, but there are cases when the application needs to know who tried to authenticate even when it fails
 
